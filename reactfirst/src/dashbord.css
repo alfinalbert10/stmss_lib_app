@@ -1,0 +1,28 @@
+.sidebars{
+    background-color: rgb(23, 23, 68);
+    box-shadow: 2px 2px rgb(135, 136, 141);
+}
+
+.fs-4{
+    color: white;
+    margin-left: 20px;
+    margin-top: 3px;
+   
+}
+
+.dashbord-button{
+    height: 50px;
+    width: 80%;
+    border-radius: 20px;
+    transition: transform .3s;
+    margin-left: 20px;
+}
+
+.dashbord-button:hover{
+    transform: scale(1.1,1);
+}
+
+#nav-link{
+    text-decoration: none; 
+    font-size: 20px;
+}

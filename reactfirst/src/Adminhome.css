@@ -1,0 +1,78 @@
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.header div {
+  color: white;
+  padding: 5px;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: bold;
+  flex: 1;
+  text-align: center;
+}
+
+.dashboard-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 20px;
+}
+
+.dashboard-item {
+  width: 100%;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.library-info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.data-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 22%;
+  padding: 10px;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.data-label {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.data-value {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+  margin-top: 10px;
+}
+
+.admin-title {
+  margin-top: 10px;
+}

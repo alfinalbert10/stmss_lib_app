@@ -1,0 +1,24 @@
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.bg-body-tertiary {
+    border: 2px solid rgb(241, 235, 235);
+   
+    box-shadow: 2px 2px rgb(173, 165, 165);
+    background-color: red;
+  }
+  
+  #brand {
+    color: rgb(10, 0, 0);
+    margin-left: 300px;
+    font-size: 35px;
+  }
+  
+  #prof{
+    color: black;
+    font-size: 20px;
+  }
+  #profile {
+    margin-left: 450px;
+  }
