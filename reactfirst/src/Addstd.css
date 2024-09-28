@@ -1,0 +1,58 @@
+#add{
+    height: 35vh;
+   display: flex;
+    justify-content: center;
+    border: 2px solid rgb(245, 240, 240);
+    width: 500px;
+    margin-left: 350px;
+   
+}
+button{
+    margin-left: 20px;
+    height: 30px;
+    width: 100px;
+    
+}
+label{
+    margin-top: 20px;
+
+}
+#id{
+    margin-left: 101px;  
+
+}
+#pass{
+    margin-left: 50px;  
+
+}
+#class{
+    margin-left: 80px;  
+
+}
+
+#name{
+    margin-left: 73px;
+}
+#email{
+    margin-left: 77px; 
+}
+
+input{
+    width: 300px;
+    border-radius: 10px;
+   
+    text-align: center;
+}
+#category{
+    margin-left: 52px;
+    border-radius: 10px;
+    width: 300px;
+    border: 2px solid black;
+}
+
+.submit-btn{
+    background-color:  #5BD3C7;
+    margin-top: 20px;
+    margin-left: 150px;
+    border-radius: 20px;
+  }

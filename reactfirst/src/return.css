@@ -1,0 +1,36 @@
+.return-box{
+    border: 2px solid rgb(244, 244, 244);
+    margin-left: 350px;
+    border-radius: 20px;
+    width: 500px;
+    height: 300px; 
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    box-shadow: 2px 2px rgb(136, 134, 134);
+    background-color: white
+}
+
+#returnbar{
+    margin-top: 100px;
+    text-align: center;
+    margin-left: 10px;
+    border-radius: 20px;
+    width: 250px;
+}
+
+.return-box {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    margin-top: 20px;
+
+}
+
+.return-box button {
+    margin-top: 20px; 
+    width: 100px;
+    border-radius: 20px; 
+    background-color:  #5BD3C7;
+}

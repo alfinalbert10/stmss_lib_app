@@ -6,7 +6,7 @@ body{
     border: 2px solid rgb(241, 235, 235);
    
     box-shadow: 2px 2px rgb(173, 165, 165);
-    background-color: red;
+    background-color: rgb(229, 17, 17);
   }
   
   #brand {
@@ -18,7 +18,4 @@ body{
   #prof{
     color: black;
     font-size: 20px;
-  }
-  #profile {
-    margin-left: 450px;
   }

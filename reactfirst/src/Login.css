@@ -13,7 +13,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 300px;
+    width: 500px;
     height: 350px;
     background-color: rgba(255, 255, 255, 0.8);
     border-radius: 10px;
@@ -28,6 +28,8 @@
   
   .login-label {
     margin-bottom: 5px;
+   font-weight: bold;
+   
   }
   
   .login-input {
@@ -36,6 +38,7 @@
     border-radius: 5px;
     border: 1px solid #ccc;
     transition: transform .3s;
+    margin-left: 55px;
   }
 
   .login-input:hover{
@@ -50,9 +53,71 @@
     border: none;
     cursor: pointer;
     transition: transform .3s;
+    margin-left: 100px;
+    height: 50px;
   }
   
   .login-button:hover {
     background-color: #45a049;
     transform: scale(1.1);
   }
+  .login-label{
+    margin-left: 60px;
+  }
+
+    
+.loading-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 610px;  /* Match the height of your component for a full takeover */
+  background-color: #E0E4EE;
+  color: #333;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.loader {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  position: relative;
+  animation: rotate 1s linear infinite
+}
+.loader::before , .loader::after {
+  content: "";
+  box-sizing: border-box;
+  position: absolute;
+  inset: 0px;
+  border-radius: 50%;
+  border: 5px solid #FFF;
+  animation: prixClipFix 2s linear infinite ;
+}
+.loader::after{
+  transform: rotate3d(90, 90, 0, 180deg );
+  border-color: #5BD3C7;
+}
+
+@keyframes rotate {
+  0%   {transform: rotate(0deg)}
+  100%   {transform: rotate(360deg)}
+}
+
+@keyframes prixClipFix {
+    0%   {clip-path:polygon(50% 50%,0 0,0 0,0 0,0 0,0 0)}
+    50%  {clip-path:polygon(50% 50%,0 0,100% 0,100% 0,100% 0,100% 0)}
+    75%, 100%  {clip-path:polygon(50% 50%,0 0,100% 0,100% 100%,100% 100%,100% 100%)}
+}
+
+
+.forgot-password {
+  color: #00050b;
+  cursor: pointer;
+  display: block; 
+  margin-top: 10px;
+  margin-left: 90px;
+}
+
+.forgot-password:hover {
+  text-decoration: underline;
+}

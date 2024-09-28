@@ -1,81 +1,46 @@
-body {
-    color: RED;
+
+#table2{
+    box-shadow: 2px 2px rgb(162, 160, 159);
     
 }
-
-#txt{
-    width: 400px;
-    margin-top: 20px;
-    margin-left: 300px;
-    border-radius: 20px;
+th,td{
     text-align: center;
 }
+ 
 
-#buton{
-    margin-left: 20px;
+ .table-container { 
+    display: flex; 
+    justify-content: space-between; 
+    margin: 20px; 
+   
+} 
+#bt1{
     border-radius: 20px;
     width: 100px;
-    margin-top: 20px;
-    background-color:  #5BD3C7;
-}
-#drop{
-    margin-top: 2px;
-    margin-left: 50px;
-    margin-top: 20px ;
-}
-#felx{
-    display: flex;
-  align-items: center;
-}
-
-#but{
-    border-radius: 20px;
-    margin-left: 45px;
-    margin-top: 20px;
-    width: 50px;
-    background-color:  #5BD3C7;
-}
-#butt{
-    border-radius: 20px;
+    margin-left: 300px;
     background-color:  #5BD3C7;
 }
 
-#drop{
-    border-radius: 10px;
-    width: 180px;
-    border: 2px solid black;
-    text-align: center;
-    
+#bt2{
+    border-radius: 20px;
+    width: 100px;
+    margin-left: 450px;
+    background-color:  #5BD3C7;
 }
-#navtobook{
+#bt3{
+    border-radius: 20px;
+    width: 100px;
+    margin-right: 10px;
+    background-color:  #5BD3C7;
+}
+#button{
+    background-color:  #5BD3C7
+}
+#tracknav{
     text-decoration: none;
     color: black;
 }
 
-#table{
-    width: 1050px;
-    margin-left: 100px;
-    margin-top: 20px;
-    height: 15px;
-}
-
-.dropdown-toggle btn btn-primary{
-    background-color: aliceblue;
-}
-
-#table{
-    box-shadow: 2px 2px rgb(136, 134, 134);
-}
-
-#editnp{
-    width: 50px;
-}
-
-#felx button,
-#felx .dropdown,
-#fex input {
-display: inline;
-}
 
 @keyframes fadeIn {
     from {

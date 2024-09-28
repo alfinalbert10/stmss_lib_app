@@ -1,0 +1,32 @@
+
+#addcat{
+    height: 40vh;
+    width: 70vh;
+   display: flex;
+    justify-content: center;
+    border: 2px solid rgb(245, 240, 240);
+    width: 500px;
+    margin-left: 400px;
+    margin-top: 50px;
+    align-items: center;
+}
+
+label{
+    margin-left: 10px;
+}
+
+#new-category-name{
+    margin-left: 10px;
+}
+
+#new-cat-id{
+    margin-left: 40px;
+}
+
+.error-input,.error-message{
+    color: red;
+  }
+
+  .add-btn{
+    background-color:  #5BD3C7;
+  }

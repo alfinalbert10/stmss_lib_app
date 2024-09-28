@@ -1,82 +1,59 @@
-body {
-    color: RED;
-    
+ #add-book{
+    height: 65vh;
+    width: 70vh;
+   display: flex;
+    justify-content: center;
+    border: 2px solid rgb(245, 240, 240);
+    width: 500px;
+    margin-left: 350px;
+    align-items: center;
+   
 }
-
-#txt{
-    width: 400px;
-    margin-top: 20px;
-    margin-left: 300px;
-    border-radius: 20px;
-    text-align: center;
-}
-
-#buton{
+button{
     margin-left: 20px;
-    border-radius: 20px;
+    height: 30px;
     width: 100px;
+}
+label{
     margin-top: 20px;
-    background-color:  #5BD3C7;
+
 }
-#drop{
-    margin-top: 2px;
-    margin-left: 50px;
-    margin-top: 20px ;
+#price{
+    margin-left: 85px;  
+
 }
-#felx{
-    display: flex;
-  align-items: center;
+#publisher-name{
+
+    margin-left: 5px;   
+}
+#book-name{
+    margin-left: 33px;
+}
+#author-name{
+    margin-left: 20px; 
 }
 
-#but{
-    border-radius: 20px;
-    margin-left: 45px;
-    margin-top: 20px;
-    width: 50px;
-    background-color:  #5BD3C7;
-}
-#butt{
-    border-radius: 20px;
-    background-color:  #5BD3C7;
-}
-
-#drop{
+input{
+    width: 300px;
     border-radius: 10px;
-    width: 180px;
-    border: 2px solid black;
+   
     text-align: center;
-    
 }
-#navtobook{
-    text-decoration: none;
-    color: black;
-}
+#category{
+    margin-left: 52px;
 
-#table{
-    width: 1050px;
-    margin-left: 100px;
-    margin-top: 20px;
-    height: 15px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
 }
+ .add-btn{
+    width: 300px;
+   margin-left: 70px;
+   margin-top: 20px;
+   border-radius: 10px;
+ }
 
-.dropdown-toggle btn btn-primary{
-    background-color: aliceblue;
-}
-
-#table{
-    box-shadow: 2px 2px rgb(136, 134, 134);
-}
-
-#editnp{
-    width: 50px;
-}
-
-#felx button,
-#felx .dropdown,
-#fex input {
-display: inline;
-}
-
+ 
 @keyframes fadeIn {
     from {
         opacity: 0;
@@ -131,4 +108,25 @@ display: inline;
       0%   {clip-path:polygon(50% 50%,0 0,0 0,0 0,0 0,0 0)}
       50%  {clip-path:polygon(50% 50%,0 0,100% 0,100% 0,100% 0,100% 0)}
       75%, 100%  {clip-path:polygon(50% 50%,0 0,100% 0,100% 100%,100% 100%,100% 100%)}
+  }
+
+  .error-message{
+    color: red;
+  }
+
+ 
+  .submit-btn1,.submit-btn2,.submit-btn3{
+    background-color:  #5BD3C7;
+    margin-top: 20px;
+    border-radius: 20px;
+  }
+  .submit-btn2{
+    margin-left: 20px;
+    
+  }
+  .submit-btn3{
+    margin-left: 20px;
+  }
+  .submit-btn1{
+    margin-left: 30px;
   }
